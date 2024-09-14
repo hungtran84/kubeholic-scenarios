@@ -28,14 +28,11 @@
         {
           "path": "assets/sample-app/deployment.yaml",
           "target": "/root/learning-kustomize/sample-app/deployment.yaml"
-        } 
-    ],
-
+        }
+      ],
     "init": {
         "commands": [
-            "mkdir -p /root/learning-kustomize/sample-app",
-            "cp /root/assets/sample-app/kustomization.yaml /root/learning-kustomize/sample-app/kustomization.yaml",
-            "cp /root/assets/sample-app/deployment.yaml /root/learning-kustomize/sample-app/deployment.yaml"
+            "mkdir -p /root/learning-kustomize/sample-app"
         ]
     }
 }
