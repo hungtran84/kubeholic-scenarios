@@ -17,13 +17,13 @@
         "text": "finish.md"
       }
     },
-    "backend": {
-      "imageid": "kubernetes-kubeadm-1node"
-    },
     "assets": {
       "host01": [
           {"file": "sample-app/**/*.*", "target": "/root/learning-kustomize/sample-app", "chmod": "+w"}
       ]
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-1node"
     }
 }
  
